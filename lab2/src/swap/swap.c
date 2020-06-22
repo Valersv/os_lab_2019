@@ -5,5 +5,5 @@ void Swap(char *left, char *right)
 	char tmp;
         tmp = *left;
         *left = *right;
-        *right = tmp;
+       *right = tmp;
 }
