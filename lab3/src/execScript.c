@@ -28,7 +28,7 @@ int main(int argc, char **argv)
 		execvp(NameScript, args);
 		exit(rv);
 	}
-	else
+	  else
 	{
 		int status;
 		wait(&status);
