@@ -12,3 +12,4 @@ revert_string.o: revert_string.c
 
 clean:
 	rm -f *.o *.so binary
+
