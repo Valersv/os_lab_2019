@@ -10,7 +10,6 @@
 #include <sys/time.h>
 
 
-
 pthread_mutex_t mut = PTHREAD_MUTEX_INITIALIZER;
 int factmod(void *args);
 
