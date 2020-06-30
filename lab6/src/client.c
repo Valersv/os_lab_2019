@@ -36,6 +36,7 @@ struct Server {
 //	return result % mod;
 //}
 
+
 bool ConvertStringToUI64(const char *str, uint64_t *val) {
 	char *end = NULL;
 	unsigned long long i = strtoull(str, &end, 10);
