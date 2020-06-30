@@ -8,5 +8,5 @@ all:
 	$(CC) -o udpserv udpserver.c 
 
 clean:
-	rm udpserv udpcl tcpserv tcpcl
+rm udpserv udpcl tcpserv tcpcl
 	
