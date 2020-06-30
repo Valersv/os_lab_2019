@@ -11,7 +11,6 @@
 #include <getopt.h>
 #include <errno.h>
 
-
 //#define BUFSIZE 100
 #define SADDR struct sockaddr
 #define SIZE sizeof(struct sockaddr_in)
