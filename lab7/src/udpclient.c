@@ -89,6 +89,7 @@ int main(int argc, char *argv[]) {
     printf("usage: client <IPaddress of server>\n");
     exit(1);
   }
+	
 
   memset(&servaddr, 0, sizeof(servaddr));
   servaddr.sin_family = AF_INET;
